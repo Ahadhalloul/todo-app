@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  border: 1px solid rgb(122, 152, 218);
+  margin: 30px auto;
+  width: 50%;
+  min-width: 400px;
+  padding: 20px 0px;
+}

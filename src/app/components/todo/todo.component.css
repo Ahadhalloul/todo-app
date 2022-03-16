@@ -1,0 +1,52 @@
+.todo {
+  display: flex;
+  padding: 10px 20px;
+}
+.todo h4 {
+  flex: 1 1 20px;
+}
+.todo p {
+  flex: 1 1 50%;
+  cursor: pointer;
+}
+.todo.done p {
+  text-decoration: line-through;
+}
+.todos form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub {
+  width: 200px;
+  padding: 10px 10px;
+  background-color: aquamarine;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.todo-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  background-color: rgb(207, 211, 214);
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+.btn {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  padding: 3px 7px;
+  cursor: pointer;
+}
+
+.todo:nth-child(odd) {
+  background-color: rgb(226, 226, 226);
+}
